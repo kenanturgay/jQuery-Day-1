@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  margin: 20px auto ;
+  width: 900px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 100px;
+}
+
+form {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+  box-shadow: 0 0 18px rgb(101, 223, 244);
+  border: 1px solid blue;
+}
+
+input{
+    
+
+}
+
+#studentTable {
+  border-collapse: collapse;
+  width: 100px; /* Tablo genişliği */
+  height: 100px; /* Tablo yüksekliği */
+  margin-top: 15px;
+  box-shadow: 0 0 18px rgb(220, 105, 105);
+}
+
+#studentTable th,
+#studentTable td {
+  
+  padding: 5px 10px;
+  text-align: left;
+  white-space: nowrap; /* Satır kaymasını engeller */
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-add{
+    background-color: #339de3;
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register System</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <h1>Register System</h1>
+    <div class="form-container">
+        
+      <form action="">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <label for="class">Class:</label>
+        <input
+          type="text"
+          id="class"
+          name="class"
+          placeholder="Enter the Class"
+        />
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" />
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" />
+        <button type="submit" class="btn-add">Add Student</button>
+      </form>
+      <table id="studentTable" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Number</th>
+            <th>City</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Öğrenciler buraya eklenecek -->
+        </tbody>
+      </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
