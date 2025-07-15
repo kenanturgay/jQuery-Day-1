@@ -2,6 +2,10 @@
 
 This project is a simple student management web application built using **HTML**, **CSS**, and **jQuery**. It allows you to view a list of students, add new students using a form, and delete students from the table dynamically.
 
+## 🌐 Live Demo
+
+🔗 [View Live Project](https://j-query-day-1.vercel.app/)
+
 ## 🧩 Features
 
 - ✅ Initial student list displayed from JavaScript array
